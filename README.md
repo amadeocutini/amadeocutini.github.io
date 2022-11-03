@@ -1,3 +1,3 @@
-# Mi Portfolio Personal
+# [Mi Portfolio Personal](www.amadeocutini.com.ar)
 
-Uso de Bootstrap y de la librería typed.js para desarrollar una página web responsive y animada.
+Mediante el uso de HTML, CSS y Bootstrap, construí una página responsive que sea la cara de presentación de mis desarrollos. Además, la implementación de la librería typed.js me permitió otorgarle animaciones que le den una marca personal a mi Portfolio.
