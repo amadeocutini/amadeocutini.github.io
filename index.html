@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJ7BGM4E5S"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XJ7BGM4E5S');
+        </script>
+        <meta charset="UTF-8">
+        <link rel="icon" href="img/favicon.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Soy un Junior Front-End Developer con +6 proyectos desarrollados bajo los principios del diseño dinámico y responsive. ¡Te invito a conocer mi trabajo!">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.amadeocutini.com.ar">
+        <meta property="og:image" content="">
+        <meta property="og:image:height" content="400">
+        <meta property="og:image:width" content="400">
+        <title>Amadeo Cutini | Front-End Developer</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/sf-mono');
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg">
+                <div class="container mt-2">
+                    <a class="navbar-brand" href="#inicio" title="Home"><span class="brand celeste">console.log</span><span class="brand">(amadeo)</span></a>
+                    <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Menú de Navegación">
+                        <i class='bx bx-menu celeste'></i>
+                    </button>
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false" data-bs-scroll="true"> 
+                        <!-- el data-bs-backdrop es el color gris que se muestra cuando se abre el offcanvas, el data-bs-scroll permite o no scrollear con el offcanvas 
+                        abierto y el offcanvas-end puede cambiarse para que el offcanvas aparezca desde otros lados-->
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><span class="celeste">console.log</span>(menú)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body"> <!--Acá se pueden agregar clases para acomodar el contenido del offcanvas -->
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border" href="#inicio"><span class="numeros celeste">01.</span> Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border" href="#sobreMi"><span class="numeros celeste">02.</span> Sobre Mí</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border" href="#trabajos"><span class="numeros celeste">03.</span> Trabajos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-border" href="#contacto"><span class="numeros celeste">04.</span> Contacto</a>
+                                </li>
+                                <li class="nav-item d-none d-lg-inline">
+                                    <a class="nav-link" href="https://github.com/amadeocutini" title="GitHub" aria-label="GitHub" target="_blank"><i class='bx bxl-github navLogo'></i></a>
+                                </li>
+                                <li class="nav-item d-none d-lg-inline">
+                                    <a class="nav-link" href="www.linkedin.com/in/amadeocutini" title="LinkedIn" aria-label="LinkedIn" target="_blank"><i class='bx bxl-linkedin-square navLogo'></i></a>
+                                </li>
+                                <li class="nav-item d-none d-lg-inline">
+                                    <a class="nav-link" href="https://codepen.io/amadeocutini" title="CodePen" aria-label="CodePen" target="_blank"><i class='bx bxl-codepen navLogo'></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="row justify-content-end">
+                <div class="col-5 col-sm-4 col-md-4 col-lg-4 col-xxl-4 home__img"> 
+                    <img class="home__blob-img img-fluid mb-5" src="img/hombreglobo.gif" alt="Hombre Globo GIF"> 
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-12 homeData" id="inicio">
+                    <h1 class="homeTitle"><span class="typed"></span><br><span class="Soy">soy </span><span class="homeTitleColor nombre">Amadeo.</span><br><span class="frontEnd">Front</span><span class="d-sm-none"> </span><span class="d-none d-sm-inline">-</span><span class="frontEnd">End</span>
+                    <span class="frontEnd dev">Dev</span></h1> 
+                </div>
+            </div> 
+            <div class="row"> 
+                <div class="col-12 col-sm-4 col-lg-2">
+                    <a href="assets/Amadeo Cutini CV.pdf" class="button" target="_blank">
+                        <span class="btnText"><span class="d-none d-md-inline d-lg-none">VER </span><span class="d-inline">M</span><span class="d-inline d-md-none d-lg-inline d-xxl-none">i</span><span class="d-none d-md-inline d-lg-none d-xxl-inline">I</span><span class="d-none d-sm-inline"> CV</span>
+                        <span class="d-sm-none">Currículum</span></span>
+                    </a>
+                </div>
+                <div class="d-none d-sm-inline col-sm-8 col-lg-8">
+                    <a href="https://calendly.com/amadeocutini/30min" class="button" target="blank">
+                        <span class="btnText">Tengamos una reunión</span>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-lg-none homeSocial">
+                    <a href="https://calendly.com/amadeocutini/30min" title="Tengamos una reunión" class="d-sm-none homeSocialIcon" aria-label="Calendly" target="blank"><i class='bx bxs-calendar'></i></a>
+                    <a href="https://github.com/amadeocutini" class='homeSocialIcon' title="Mi GitHub" aria-label="GitHub" target="blank"><i class='bx bxl-github'></i></a>
+                    <a href="www.linkedin.com/in/amadeocutini" class="homeSocialIcon" title="Mi LinkedIn" aria-label="LinkedIn" target="blank"> <i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://codepen.io/amadeocutini" class="homeSocialIcon" title="Mi CodePen" aria-label="CodePen" target="_blank"><i class='bx bxl-codepen'></i></a>                
+                </div> 
+            </div>
+
+            <!--===== ABOUT =====-->
+
+            <div class="row" id="sobreMi">
+                <div class="col-12">
+                    <h2 class="mt-0 section-title aboutTitle"><span class="borde">Sobre Mí</span></h2>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-12 col-xl-7 col-xxl-8 mt-5">
+                    <h2 class="ms-1 seccionesTitle">Perfil</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="mt-3 mb-3 ms-3 me-3 d-flex perfil">
+                                <img src="img/mifoto.webp" class="img-fluid rounded-circle" title="Mi foto de Perfil" alt="Mi Foto" width="90" height="90">
+                                <div class="mt-4 ms-3">
+                                    <span class="">Amadeo Cutini</span>
+                                    <a href="https://www.linkedin.com/in/amadeocutini" class="d-none d-sm-inline" title="LinkedIn" aria-label="LinkedIn" target="_blank"><i class='bx bx-link-external'></i></a>
+                                    <small class="d-block d-sm-none text-sm codeSlogan">Apasionado por 👨‍💻</small>
+                                    <small class="d-none d-sm-block text-sm">Apasionado por la programación</small>
+                                </div>
+                            </div>
+                            <div class="ms-4 mt-3 me-3 mb-3">
+                                <p class="text-sm opacity-70">Autodidacta, comprometido y constante. Disfruto adaptarme a nuevos entornos y <span class="d-none d-sm-inline">a</span> tecnologías<span class="d-inline d-sm-none">.</span><span class="d-none d-sm-inline"> desafiantes</span><span class="d-none d-sm-inline">, afrontando retos y mientras, disfrutando del proceso.</span><span class="d-none d-lg-inline"> Te invito a ver mis <a href="#trabajos" title="Trabajos">desarrollos</a></span><span class="d-none d-lg-inline"> y/o <a href="#contacto" title="Contacto">contactarme</a>.</span></p> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>  
+                <div class="col-12 col-sm-12 col-xl-5 col-xxl-4 mt-5 gap-2">
+                    <h2 class="ms-1 seccionesTitle">Tecnologías</h2>
+                    <div class="card d-sm-none ">
+                        <img class="card-img-top" src="img/tecnologias.webp" title="Tecnologías" alt="Tecnologías">
+                    </div>
+                    <ul class="d-none d-sm-inline list-group">
+                        <li class="list-group-item logo">
+                            <div class="mt-sm-3 mb-sm-3 ms-md-1 me-sm-1">
+                                <div class="mt-4 ms-sm-4">
+                                    <img src="img/htmllogo.svg" class="d-none d-sm-inline ms-sm-0 ms-md-0 me-md-2 ms-xl-3 mt-xl-2 mb-xl-2 me-xl-2 ms-xxl-1 me-xxl-2 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-1" title="HTML5" alt="HTML5">
+                                    <div class="modal fade" id="modal-1" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-1">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/htmllogo.svg" title="HTML5" alt="HTML5"><h5 class="modal-title">HTML5</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">HTML es el lenguaje de marcado que cualquier página web necesita para construir su estructura.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/csslogo.svg" class="d-none d-sm-inline ms-sm-1 ms-xl-2 mt-xl-2 mb-xl-2 me-xl-2 ms-xxl-2 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-2" title="CSS3" alt="CSS3">
+                                    <div class="modal fade" id="modal-2" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-2">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/csslogo.svg" title="CSS3" alt="CSS3"><h5 class="modal-title">CSS3</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">CSS es el lenguaje de diseño por excelencia para darle estilos a los documentos de un lenguaje de marcado.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/javascriptlogo.svg" class="d-none d-sm-inline ms-sm-1 ms-md-3 ms-xl-2 mt-xl-2 mb-xl-2 me-xl-2 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-3" title="JavaScript" alt="JavaScript">
+                                    <div class="modal fade" id="modal-3" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-3">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/javascriptlogo.svg" title="JavaScript" alt="JavaScript"><h5 class="modal-title">JavaScript</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">JavaScript es el lenguaje más utilizado y permite, por ejemplo, darle dinamismo a las páginas web.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/bootstraplogo.svg" class="d-none d-sm-inline ms-sm-1 ms-md-3 ms-xl-2 mt-xl-2 mb-xl-2 ms-xxl-2 me-xxl-1 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-5" title="Bootstrap" alt="Bootstrap">
+                                    <div class="modal fade" id="modal-5" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-5">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/bootstraplogo.svg" title="Bootstrap" alt="Bootstrap"><h5 class="modal-title">Bootstrap Framework</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">Bootstrap es un framework enfocado en el desarrollo adaptable que también incluye componentes de JS.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/reactlogo.svg" class="d-none d-sm-inline ms-sm-1 ms-md-2 ms-xl-3 mt-xl-2 mb-xl-2 me-xl-2 ms-xxl-1 mt-xxl-4 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-4" title="React" alt="React">
+                                    <div class="modal fade" id="modal-4" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-4">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/reactlogo.svg" title="React" alt="React"><h5 class="modal-title">React Library (en aprendizaje)</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">React es una librería de JavaScript orientada a facilitar el desarrollo de interfaces de usuario interactivas.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/firebase.svg" class="d-none d-sm-inline ms-sm-1 me-sm-2 ms-md-3 me-md-3 ms-xl-2 mt-xl-2 mb-xl-2 me-xl-2 mt-xxl-4 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-8" title="Firebase" alt="Firebase">
+                                    <div class="modal fade" id="modal-8" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-8">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/firebase.svg" title="Firebase" alt="Firebase"><h5 class="modal-title">Firebase (en aprendizaje)</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">Firebase es una plataforma de desarrollo de aplicaciones web y aplicaciones móviles del grupo Google.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/rapidapilogo.png" class="d-none d-sm-inline ms-sm-1 ms-md-3 ms-xl-2 mt-xl-2 mb-xl-2 me-xl-2 ms-xxl-2 mt-xxl-4 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-6" title="RapidAPI" alt="RapidAPI">
+                                    <div class="modal fade" id="modal-6" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-6">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/rapidapilogo.png" title="RapidAPI" alt="RapidAPI"><h5 class="modal-title">RapidAPI (en aprendizaje)</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">RapidAPI es un servicio de API's gratuitas que permite consumirlas e incorporarlas en proyectos de todo tipo.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/gitlogo.svg" class="d-none d-sm-inline ms-sm-1 ms-md-3 ms-xl-2 mt-xl-2 mb-xl-2 me-xl-2 mt-xxl-4 rounded-circle" data-bs-toggle="modal" data-bs-target="#modal-7" title="Git" alt="Git">
+                                    <div class="modal fade" id="modal-7" tabindex="-1" aria-hidden="true" aria-labelledby="label-modal-7">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <img src="img/gitlogo.svg" title="Git" alt="Git"><h5 class="modal-title">Git (en aprendizaje)</h5>
+                                                    <button class="btn-close me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="modalText">Git es un software de control de versiones pensando en la eficiencia, la confiabilidad y la compatibilidad.</p>                                         
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>  
+            </div>        
+
+            <!--===== MI FORMACIÓN =====--> 
+
+            <div class="row justify-content-evenly" id="formacion">
+                <h2 class="ms-1 mt-5 seccionesTitle">Mis certificados de aprendizaje</h2>
+                <div class="col-12 col-md-4 mt-2">
+                    <div class="card">
+                        <a href="https://bit.ly/3SCe94Y" class="work__img" target="blank"><img class="card-img-top" src="img/introduccionprogramacion.webp" title="Certificado de Introducción a la Programación" alt="Certificado de Introducción a la Programación"></a>
+                    </div>
+                </div>  
+                <div class="col-12 col-md-4 mt-3 mt-md-2">
+                    <div class="card">
+                        <a href="https://bit.ly/3VU7gyE" class="work__img" target="blank"><img class="card-img-top img-fluid" src="img/fundamentosprogramacion.webp" title="Certificado de Fundamentos de Programación" alt="Certificado de Fundamentos de Programación"></a> 
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3 mt-md-2">
+                    <div class="card">
+                        <a href="https://bit.ly/3z71S1g" class="work__img" target="blank"><img class="card-img-top" src="img/websdesdecero.webp" title="Certificado de HTML y CSS" alt="Certificado de HTML y CSS"></a>
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3 mt-md-4">
+                    <div class="card">
+                        <a href="https://bit.ly/3FaaE2y" class="work__img" target="blank"><img class="card-img-top" src="img/bootcamp.webp" title="Certificado de Bootcamp Front-End" alt="Certificado de Bootcamp Front-End"></a> 
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3 mt-md-4">
+                    <div class="card">
+                        <a href="https://bit.ly/3tprKSL" class="work__img" target="blank"><img class="card-img-top" src="img/bootstrap.webp" title="Certificado de Bootstrap" alt="Certificado de Bootstrap"></a>
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3 mt-md-4">
+                    <div class="card" id="trabajos">
+                        <!--<a href="" class="work__img" target="blank"><img class="card-img-top" src="img/" title="Certificado de React y Firebase" alt="Certificado de React y Firebase"></a> Agregar la img-->
+                    </div>
+                </div> 
+            </div>
+
+            <!--===== TRABAJOS =====--> 
+
+            <div class="row work justify-content-evenly">
+                <div class="col-12">
+                    <h2 class="section-title trabajosTitle mt-2 mb-1"><span class="borde">Mis Trabajos</span></h2>
+                </div>
+                <div class="col-12 col-md-4 mt-4 mt-md-5">
+                    <div class="card"> <!--Agregar los target="_blank" cuando estén los proyectos-->
+                        <a href="#" class="work__img" title="Snake Game Link"><img class="card-img-top" src="img/snakegame.webp" title="Snake Game" alt="Snake Game"></a> 
+                    </div>
+                </div>  
+                <div class="col-12 col-md-4 mt-3 mt-md-5">
+                    <div class="card">
+                        <a href="#" class="work__img" title="Reloj Web Link"><img class="card-img-top" src="img/reloj.webp" title="Reloj web" alt="Reloj web"></a>
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3 mt-md-5">
+                    <div class="card">
+                        <a href="#" class="work__img" title="Tic-Tac Game Link"><img class="card-img-top" src="img/tictac.webp" title="Tic-Tac Game" alt="Tic-Tac Game"></a> 
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="card">
+                        <a href="https://amadeocutinifacebook.netlify.app" class="work__img" target="_blank" title="Clon de Facebook Link"><img class="card-img-top" src="img/facebook.webp" title="Clon de Facebook" alt="Clon de Facebook"></a> 
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="card">
+                        <a href="https://amadeocutinipanel.netlify.app" class="work__img" target="_blank" title="Dashboard Link"><img class="card-img-top" src="img/dashboard.webp" title="Dashboard" alt="Dashboard"></a> 
+                    </div>
+                </div> 
+                <div class="col-12 col-md-4 mt-3">
+                    <div class="card">
+                        <a href="#" class="work__img" title="Mi Portfolio"><img class="card-img-top" src="img/miportfolio.webp" title="Mi Portfolio" alt="Mi Portfolio"></a> <!--NO TARGET BLANK-->
+                    </div>
+                </div> 
+            </div>
+
+            <!--===== CONTACTO =====-->
+            
+            <div class="row contact" id="contacto">
+                <div class="col">
+                    <h2 class="section-title mt-1 mb-3"><span class="borde">Contacto</span></h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <form action="https://formspree.io/f/xbjbknkk" method="POST">
+                        <div class="col-12 mt-3 mb-3">
+                            <div class="form-floating">
+                                <input class="form-control contact__input" type="text" name="name" id="nombre" placeholder="Tu nombre" required>
+                                <label for="nombre">Tu nombre</label>
+                            </div>
+                        </div> 
+                        <div class="col-12 mb-3">
+                            <div class="form-floating">
+                                <input class="form-control contact__input" type="email" name="email" id="correo" placeholder="Tu correo" required>
+                                <label for="correo">Tu correo electrónico</label>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <div class="form-floating">
+                                <textarea class="form-control contact__input" name="message" id="mensaje" placeholder="Tu mensaje" required></textarea>
+                                <label for="mensaje">¡Quiero contratar tus servicios!</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <button class="button contactButton float-end" type="submit">ENVIAR</button>
+                            <button type="reset" class="d-none d-sm-inline button resetButton float-end me-3">VACIAR</button>
+                        </div>
+                    </form>  
+                </div>
+            </div>
+        </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!--Librería de escritura-->
+    <script src="main.js"></script> <!--Este archivo debe ir debajo del script de la librería-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
